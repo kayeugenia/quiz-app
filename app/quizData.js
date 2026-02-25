@@ -11,7 +11,7 @@ export const quiz = {
             'Strategy': ['UTC2113', 'UTS2100/UTC2100'],
             'Anthropology': ['UTS2110/UTC2110', 'UTC2117'],
             'Healthcare': ['UTS2103/UTC2103'],
-            'Environment': ['UTC2111', 'UTC2102']
+            'Environment': ['UTC2111']
         },
       },
       {
