@@ -26,15 +26,19 @@ export const courseData = {
         interesting: 'Talks with speakers in the medical and health sciences community',
         image: 'UTS2103.jpg',
     },
+
+    // version 2 of changes
+    
     'UTC2102': {
         name: 'Climate Change',
         prof: 'Dr Connor Graham',
         type: 'Senior Seminar',
         summary: 'This ‘Senior Seminar’ course will consider one of the most pressing problems of our time from multiple viewpoints. Merging insights from the sciences and humanities, students will be introduced to problems, conflicts, and debates over the causes of, and solutions to, the phenomenon of global warming and its implications for humanity. The seminar will meet weekly in small groups of 15‐20, with periodic full‐class meetings to hear guest speakers.',
-        assignment: '',
-        interesting: '',
+        assignment: 'Climate project, Reflective Essay',
+        interesting: 'Guest speakers, project exhibition',
         image: 'UTC2102.jpg',
     },
+    
     'UTC2113': {
         name: 'Gaming Life',
         prof: 'Ms Cera Tan',
@@ -44,6 +48,7 @@ export const courseData = {
         interesting: 'Playing games weekly to draw connection from the topic discussed',
         image: 'UTC2113.jpg',
     },
+    
     'UTS2110/UTC2110': {
         name: 'Happiness By Design',
         prof: 'Dr John Wee',
@@ -53,24 +58,31 @@ export const courseData = {
         interesting: 'Partnering with the social enterprise Happiness Initiative to enhance learning experience through their social research',
         image: 'uts2110.png',
     },
-    'UTS2100/UTC2100': {
+
+     // version 2 of changes
+    
+    'UTS2104/UTC2104': {
         name: 'Intelligence and Singapore Society',
         prof: 'Dr Connor Graham, Mr Shamraz Anver',
         type: 'Senior Seminar',
         summary: 'This course invites students to probe the concept of ‘intelligence’ in relation to Singapore’s ongoing development as a nation. The idea that smart minds are essential for survival has shaped domestic policies and international positioning strategies. We ask: in what ways has human intelligence been defined, measured and harnessed? What counts as intelligence, and what does not? Beyond notions of intelligence centred on the human individual, we will also consider forms of collective and artificial intelligence, mediated by science and technology. What kinds of intelligence are needed for the future and how can Singapore develop them?',
-        assignment: '',
-        interesting: '',
+        assignment: 'Intelligence test, policy presentation',
+        interesting: 'Intelligence test event, guest speakers',
         image: 'UTS2100.jpg',
     },
+
+     // version 2 of changes
+    
     'UTC2108': {
         name: 'Knowledge and Expertise',
         prof: 'Dr Connor Graham, Dr Eric Kerr',
         type: 'Senior Seminar',
         summary: 'In this seminar, students examine some of the beliefs humans have held about knowledge throughout history, with a particular focus on technological change and the idea of expertise. Through a socio-historical treatment of figures associated with knowledge, students will discuss how experts are created, challenged, and replaced. This course will enable students to critically appreciate various forms of knowledge, analyse and respond to current issues related to expertise, understand the context in which our methods and processes for acquiring knowledge are situated, and assess how they shape individual and collective lives and experiences.',
-        assignment: '',
-        interesting: '',
+        assignment: 'Personal wiki page, seminar post',
+        interesting: 'Making events (e.g. cooking), wiki public launch',
         image: 'UTC2108.jpg',
     },
+    
     'UTC2107': {
         name: 'Negotiating in a Complex World',
         prof: 'Dr Michael Grainger, Dr Kuan Yee Han',
@@ -80,6 +92,7 @@ export const courseData = {
         interesting: 'Facilitating a table-top negotiation session for your peers',
         image: 'UTC2107.jpg',
     },
+    
     'UTC2111': {
         name: 'Picturing and Seeing Development',
         prof: 'Mr Shamraz Anver',
@@ -89,6 +102,7 @@ export const courseData = {
         interesting: 'Field trip to Cambodia to engage with local communities and NGOs',
         image: 'UTC2111.jpg',
     },
+    
     'UTS2105/UTC2105': {
         name: 'Singapore as "Model" City?',
         prof: 'Dr Margaret Tan',
@@ -98,6 +112,31 @@ export const courseData = {
         interesting: 'Field trip to intervention site and stakeholder engagement',
         image: 'UTC2105_UTS2105.jpg',
     },
+    
+    // version 2 of changes
+    
+    'UTS2106/UTC2106': {
+        name: 'Science Fiction and Hope',
+        prof: 'Dr John Wee, Dr Eric Kerr',
+        type: 'Senior Seminar',
+        summary: 'This interdisciplinary course involves studying science fiction (SF) as a resource for thinking about the future in Singapore. As existential risks often dominate media imaginations of the future—often accompanied by narratives of coming insecurity, radical change, and uncertainty—the focus of this course is on the possibilities of SF to imagine a better world. Students will explore the history of SF, in Singapore and abroad, the ways SF reveals a society’s hopes and fears, and its capacity to imagine hopeful futures and apply what they learn to imagine solutions to contemporary challenges.',
+        assignment: 'Short story dramatization, community discussion whiteboard, film analysis essay, creative writing project',
+        interesting: 'Animated films, science fiction short stories, perform and write scripts, visit museums or exhibits',
+        image: 'UTS2106/UTC2106.jpg',
+    },
+    
+    // version 2 of changes
+    
+    'UTC2115/UTS2115': {
+        name: 'Migrant Workers, Rhetoric, and Performance',
+        prof: 'Dr Loritta Chan',
+        type: 'Senior Seminar',
+        summary: 'The course enables students to reflect and build on how rhetoric and performance are deployed by migrant workers to demonstrate their productive contributions to society beyond paid labor. Through partnership with non-government organizations that focus on helping migrant workers, students will understand how discussions, artistic expressions, and cultural productions are fashioned and organized by the workers to highlight their specific needs while demonstrating their talents, rhetorical skills and creativity. As they develop the skills and dispositions in partnering with communities, students will collaborate with a group of migrant workers to co-design activities meant to cultivate inclusion, community building, and empowerment.',
+        assignment: 'Project, reflection journals, class facilitation',
+        interesting: 'Co-teaching / facilitating class discussions, Engaging with domestic workers on their rest days',
+        image: 'UTS2106/UTC2106.jpg',
+    },
+    
     'UTC2117': {
         name: 'Skin',
         prof: 'Dr Celine Coderey',
@@ -107,6 +146,19 @@ export const courseData = {
         interesting: 'Study touch, colorism, tattoos, skin conditions',
         image: 'utc2117.png',
     },
+
+    // version 2 of changes
+    
+    'UTC2119': {
+        name: 'Maps: Portraying Space as Place',
+        prof: 'Dr John Wee',
+        type: 'Senior Seminar',
+        summary: 'Working from the position that skin belongs as much to the person as to the society in which they live, this seminar reflects on how much our identity and our sense of self is produced by the interaction between biological, cultural, political, and economic, forces that play out through and on the skin. Thus, skin is a playground — at the very same time that it is a battle field — where identity is constantly reshaped through interaction of words, categories, values, body techniques and emotions.',
+        assignment: 'Map designs, museum labels, Singapore heritage project',
+        interesting: 'Design a tactile map, perform art criticism, compose a narraitive, create an experiential map',
+        image: 'utc2119.png',
+    },
+    
     'UTS2114/UTC2114': {
         name: 'Technologies and Ageing in Singapore',
         prof: 'Dr Kuan Yee Han',
@@ -116,13 +168,15 @@ export const courseData = {
         interesting: 'Amazing Race to explore Enabling village',
         image: 'UTS2114.jpg',
     },
+
+     // version 2 of changes
     'UTC2116/UTS2116': {
         name: 'The University Today',
         prof: 'Dr Gene Navera',
         type: 'Senior Seminar',
         summary: 'What are universities for? A university education was traditionally exclusive to the elites but is increasingly seen as crucial to professionalization and social mobility; democratic citizenship; fostering debate and the pursuit of scientific knowledge. This course examines recent debates chronicling how growing trends of neoliberalism have led to changes in how universities and higher education are viewed. We also examine the confluence of historical, political and social factors that shaped the establishment and development of universities in postcolonial society like Singapore. Students will investigate how universities in Singapore relate with their overseas counterparts and with global trends in higher education.',
-        assignment: 'Reflective essay, poster presentation',
-        interesting: 'Critical engagement with the role of university',
+        assignment: 'Reflective essay, future university design',
+        interesting: 'Critical engagement with the role of university, student guest talks, specialist tutorials',
         image: 'UTC2116UTS2116.jpg',
     },
     'UTC2101': {
@@ -179,13 +233,14 @@ export const courseData = {
         interesting: 'Creating a fake for final project',
         image: 'UTC1102C.jpg',
     },
+    // version 2 of changes
     'UTC1113': {
-        name: 'Ignorance and Uncertainty',
+        name: 'Ignorance and Knowing',
         prof: 'Dr John Wee',
         type: 'Junior Seminar',
         summary: '“I don’t know jujutsu.” “I know how you feel.” “I don’t know what I know.” “Anselm said, I believe so I may know.” Ignorance and knowing come in many forms, co-existing in dynamic interplay, and compartmentalized within our lives. This course draws on models of memory, consciousness, and intentionality in psychology and philosophy — exploring how inconsistently we value knowledge in our risk-taking, hopes, and pleasures; how ignorance as a method disrupts familiar algorithms and our personal biases; whether ignorance absolves us from the law, public, and underprivileged; and how embraced uncertainties help us navigate spiritual experiences and cultures of skepticism.',
-        assignment: '',
-        interesting: '',
+        assignment: 'Student educatorship, community discussion whiteboard, research paper',
+        interesting: 'Design and play games, solve mysteries, role-plays, group contests',
         image: 'UTC1113.jpg',
     },
     'UTC1102D': {
@@ -224,6 +279,7 @@ export const courseData = {
         interesting: 'Truth and proof across many disciplines',
         image: 'UTC1102G.jpg',
     },
+    
     'UTC1102E': {
         name: 'Social Innovation',
         prof: 'Dr Dilum Wewalaarachchi',
@@ -233,6 +289,18 @@ export const courseData = {
         interesting: 'Design-thinking workshop',
         image: 'UTC1102E.jpg',
     },
+    
+    // version 2 of changes
+    'UTC1116': {
+        name: 'Spectacles and Society',
+        prof: 'Dr Gene Navera',
+        type: 'Junior Seminar',
+        summary: 'Spectacles—mediatized events that generate heightened and sustained public attention and conversations—are a constant feature of contemporary societies. Concerts, sports events, political narratives, and “breaking news” are some examples of spectacles that have pervaded the public sphere and generated vibrant public talk. They carry with them values that either resonate or get contested in public. What does the phenomenon of spectacles reveal about the societies and cultures in which they take place? Using interdisciplinary frameworks and perspectives, this course offers students opportunities to critically examine spectacles as sites for negotiating social and cultural values, ideologies, and meanings.',
+        assignment: 'Reflection essays, analytical paper, class facilitation, multimodal synthesis',
+        interesting: 'Case studies, critical investigation of spectacularized events, collaborative work, co-facilitation of discussion',
+        image: 'UTC1116.jpg',
+    },
+
     'UTC1123': {
         name: 'The Nuclear Imagination',
         prof: 'Dr Rafi Rashid',
