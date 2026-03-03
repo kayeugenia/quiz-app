@@ -7,7 +7,7 @@ export const courseData = {
         // assignment: 'Reflection, group project',
         // interesting: 'Mock crime scene investigation',
         // image: 'UTC2118.png',
-    },
+    // },
     // 'UTC2109/UTS2109': {
         // name: 'Asia Now! The Archaeology of the Future City',
         // prof: 'Dr Margaret Tan',
@@ -16,7 +16,7 @@ export const courseData = {
         // assignment: '',
         // interesting: '',
         // image: 'UTC2109.jpg',
-    },
+    // },
     'UTS2103/UTC2103': {
         name: 'Health and the Community in Singapore',
         prof: 'Dr Rafi Rashid',
@@ -43,7 +43,7 @@ export const courseData = {
         // assignment: 'Presentation, individual project of own form or medium',
         // interesting: 'Playing games weekly to draw connection from the topic discussed',
         // image: 'UTC2113.jpg',
-    },
+    // },
     'UTS2110/UTC2110': {
         name: 'Happiness By Design',
         prof: 'Dr Eric Kerr',
@@ -133,7 +133,7 @@ export const courseData = {
         // assignment: 'Group presentation, reflection, individual project',
         // interesting: 'Learn about rites of passage and the meaning of wait time',
         // image: 'UTC2101.jpg',
-    },
+    // },
     'UTC1119': {
         name: 'Crime and Punishment',
         prof: 'Dr Michael Grainger',
@@ -160,7 +160,7 @@ export const courseData = {
         // assignment: 'Presentation, book review, essay',
         // interesting: 'Opportunity to see bones, shells, fossils brought in by the professor',
         // image: 'UTC1102B.jpg',
-    },
+    // },
     'UTC1120': {
         name: 'Emotions and Society',
         prof: 'Mr Shamraz Anver',
@@ -214,7 +214,7 @@ export const courseData = {
         // assignment: '',
         // interesting: '',
         // image: 'UTC1102P.jpg',
-    },
+    // },
     // 'UTC1102G': {
         // name: "Proof: What's truth got to do with it?",
         // prof: 'Professor Tay Yong Chiang',
@@ -223,7 +223,7 @@ export const courseData = {
         // assignment: 'Essay, case study, presentation',
         // interesting: 'Truth and proof across many disciplines',
         // image: 'UTC1102G.jpg',
-    },
+    // },
     // 'UTC1102E': {
         // name: 'Social Innovation',
         // prof: 'Dr Dilum Wewalaarachchi',
@@ -232,7 +232,7 @@ export const courseData = {
         // assignment: 'Individual project on social innovation',
         // interesting: 'Design-thinking workshop',
         // image: 'UTC1102E.jpg',
-    },
+    // },
     'UTC1123': {
         name: 'The Nuclear Imagination',
         prof: 'Dr Rafi Rashid',
