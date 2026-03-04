@@ -69,7 +69,7 @@ export const quiz = {
         answers: ['Research essay', 'Creative works/Exhibition', 'Project that engages real stakeholders','Debate','Individual reflection','Field trip'],
         mappedAnswer: {
             'Research essay' : ['UTC2108', 'UTC2104/UTS2104'],
-            'Creative works/Exhibition': ['UTC2101', 'UTC2101','UTC2117', 'UTC2119'],
+            'Creative works/Exhibition': ['UTC2102','UTC2117', 'UTC2119'],
             'Project that engages real stakeholders' : ['UTS2105/UTC2105', 'UTC2115/UTS2115'],
             'Debate' : ['UTC2107', 'UTC1113'],
             'Individual reflection' : ['UTC2101','UTC2116/UTS2116'],
