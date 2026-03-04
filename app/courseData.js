@@ -1,25 +1,25 @@
 export const courseData = {
-    'UTC2118': {
-        name: 'The Anatomy of Crime',
-        prof: 'Dr Serena Seah',
-        type: 'Senior Seminar',
-        summary: 'Made popular by TV dramas such as C.S.I., forensic sciences have gained much attention in criminal investigation. However, fictional dramas spread many misconceptions about the real world of the forensic science. This course explores the use of scientific methods, specifically in forensic sciences, of collecting, experimenting and analysing the evidence of crime scene, to be used in the court of law in solving crime. Finally, it encourages students to critically examine the use and value of forensic sciences in the legal system and how it contributes to addressing crime in society.',
-        assignment: 'Reflection, group project',
-        interesting: 'Mock crime scene investigation',
-        image: 'UTC2118.png',
-    },
-    'UTC2109/UTS2109': {
-        name: 'Asia Now! The Archaeology of the Future City',
-        prof: 'Dr Margaret Tan',
-        type: 'Senior Seminar',
-        summary: 'This course concentrates on the Asian built environment – architecture, urban planning and sustainable development. The theme of the archaeology of the future considers the many layers of the city, from examining its past to identifying its already emerging possible urban futures. Discussions and readings that provide in-depth, analytical, and critical perspectives on urbanisation and urbanism in Asia will be supplemented with a field trip to Singapore City Gallery and workshops on Futures Thinking. In particular, students will be taught the Casual Layered Analysis (CLA) methodology to help them think critically and deeply about present trends and the multiplicity of future scenarios. Through Singapore as a case study, students will gain a deeper understanding of challenges facing a rapidly-urbanising Asia, cultivate intellectual tools to evaluate these challenges and embody solutions through a hands-on creative project.',
-        assignment: '',
-        interesting: '',
-        image: 'UTC2109.jpg',
-    },
+    // 'UTC2118': {
+        // name: 'The Anatomy of Crime',
+        // prof: 'Dr Serena Seah',
+        // type: 'Senior Seminar',
+        // summary: 'Made popular by TV dramas such as C.S.I., forensic sciences have gained much attention in criminal investigation. However, fictional dramas spread many misconceptions about the real world of the forensic science. This course explores the use of scientific methods, specifically in forensic sciences, of collecting, experimenting and analysing the evidence of crime scene, to be used in the court of law in solving crime. Finally, it encourages students to critically examine the use and value of forensic sciences in the legal system and how it contributes to addressing crime in society.',
+        // assignment: 'Reflection, group project',
+        // interesting: 'Mock crime scene investigation',
+        // image: 'UTC2118.png',
+    // },
+    // 'UTC2109/UTS2109': {
+        // name: 'Asia Now! The Archaeology of the Future City',
+        // prof: 'Dr Margaret Tan',
+        // type: 'Senior Seminar',
+        // summary: 'This course concentrates on the Asian built environment – architecture, urban planning and sustainable development. The theme of the archaeology of the future considers the many layers of the city, from examining its past to identifying its already emerging possible urban futures. Discussions and readings that provide in-depth, analytical, and critical perspectives on urbanisation and urbanism in Asia will be supplemented with a field trip to Singapore City Gallery and workshops on Futures Thinking. In particular, students will be taught the Casual Layered Analysis (CLA) methodology to help them think critically and deeply about present trends and the multiplicity of future scenarios. Through Singapore as a case study, students will gain a deeper understanding of challenges facing a rapidly-urbanising Asia, cultivate intellectual tools to evaluate these challenges and embody solutions through a hands-on creative project.',
+        // assignment: '',
+        // interesting: '',
+        // image: 'UTC2109.jpg',
+    // },
     'UTS2103/UTC2103': {
-        name: 'Biomedicine and Singapore Society',
-        prof: 'Dr Serena Seah',
+        name: 'Health and the Community in Singapore',
+        prof: 'Dr Rafi Rashid',
         type: 'Senior Seminar',
         summary: 'This ‘Senior Seminar’ course will consider social and public health issues raised by modern advances in biomedicine, particularly as they affect Singapore and the surrounding region. Merging insights from medicine, social sciences, and the humanities, students will be introduced to problems, conflicts, and debates, and asked to form their own reasoned opinions. The seminar will meet weekly in small groups of 15‐20, with periodic full‐class meetings to hear guest speakers.',
         assignment: 'Medical narrative, learning journal, Model United Nations conference, interdisciplinary research project',
@@ -38,20 +38,18 @@ export const courseData = {
         interesting: 'Guest speakers, project exhibition',
         image: 'UTC2102.jpg',
     },
-    
-    'UTC2113': {
-        name: 'Gaming Life',
-        prof: 'Ms Cera Tan',
-        type: 'Senior Seminar',
-        summary: 'Games are a fundamental aspect of our everyday lives — they permeate disparate fields of knowledge; involve, and are involved in, the creation of cultural practices; are part of ways of seeing and being in the world; might well be integral to relationships between peoples and the worlds they are a part of. This seminar attempts to meditate on the idea of games to develop an appreciation of gaming in life — with an accent on gaming life. Games, including specific games, are explored in theoretical and practical ways to develop questions involving — interrelating — tekhnē, technologies, cultures, epistemologies, and human communities. Further explorations potentially lead us to gaming cultures, including strategies, tactics, entanglements, addictions, pleasures, desires, délices, jouissances — exploring them in domains such as ‘political’, ‘social’, ‘familial’, ‘academic’, games, amongst many others — with play and praxis being echoes resounding through this seminar. Seminarians will engage in the construction, critique, and creation of games —imagining, and bringing forth, concepts in relation to the worlds in which we live.',
-        assignment: 'Presentation, individual project of own form or medium',
-        interesting: 'Playing games weekly to draw connection from the topic discussed',
-        image: 'UTC2113.jpg',
-    },
-    
+    // 'UTC2113': {
+        // name: 'Gaming Life',
+        // prof: 'Ms Cera Tan',
+        // type: 'Senior Seminar',
+        // summary: 'Games are a fundamental aspect of our everyday lives — they permeate disparate fields of knowledge; involve, and are involved in, the creation of cultural practices; are part of ways of seeing and being in the world; might well be integral to relationships between peoples and the worlds they are a part of. This seminar attempts to meditate on the idea of games to develop an appreciation of gaming in life — with an accent on gaming life. Games, including specific games, are explored in theoretical and practical ways to develop questions involving — interrelating — tekhnē, technologies, cultures, epistemologies, and human communities. Further explorations potentially lead us to gaming cultures, including strategies, tactics, entanglements, addictions, pleasures, desires, délices, jouissances — exploring them in domains such as ‘political’, ‘social’, ‘familial’, ‘academic’, games, amongst many others — with play and praxis being echoes resounding through this seminar. Seminarians will engage in the construction, critique, and creation of games —imagining, and bringing forth, concepts in relation to the worlds in which we live.',
+        // assignment: 'Presentation, individual project of own form or medium',
+        // interesting: 'Playing games weekly to draw connection from the topic discussed',
+        // image: 'UTC2113.jpg',
+    // },
     'UTS2110/UTC2110': {
         name: 'Happiness By Design',
-        prof: 'Dr John Wee',
+        prof: 'Dr Eric Kerr',
         type: 'Senior Seminar',
         summary: 'This course partners with a social enterprise such as Happiness Initiative in Singapore, to contribute social research for developing ‘well-being skills’ in community programs. Students conduct literature reviews, design surveys, and analyze variables shaping the experience of well-being by local stakeholders — communities or workplaces in Singapore identified by the partner. To stimulate creative ideas for improving research design, students critically appraise modern and historical literature on ideal societies and human flourishing, and learn to apply theory to encourage positive behaviors through designed interventions. Through collecting feedback and responses, students test the effectiveness of their proposed design and translate their findings into policy recommendations.',
         assignment: 'Project',
@@ -63,7 +61,7 @@ export const courseData = {
     
     'UTS2104/UTC2104': {
         name: 'Intelligence and Singapore Society',
-        prof: 'Dr Connor Graham, Mr Shamraz Anver',
+        prof: 'Mr Shamraz Anver, Dr Connor Graham',
         type: 'Senior Seminar',
         summary: 'This course invites students to probe the concept of ‘intelligence’ in relation to Singapore’s ongoing development as a nation. The idea that smart minds are essential for survival has shaped domestic policies and international positioning strategies. We ask: in what ways has human intelligence been defined, measured and harnessed? What counts as intelligence, and what does not? Beyond notions of intelligence centred on the human individual, we will also consider forms of collective and artificial intelligence, mediated by science and technology. What kinds of intelligence are needed for the future and how can Singapore develop them?',
         assignment: 'Intelligence test, policy presentation',
@@ -95,17 +93,17 @@ export const courseData = {
     
     'UTC2111': {
         name: 'Picturing and Seeing Development',
-        prof: 'Mr Shamraz Anver',
+        prof: 'Dr Priscilla Koh',
         type: 'Senior Seminar',
         summary: 'This course considers how development is pictured, visualised and textualised through a focus on rural communities overseas for eg. in Cambodia in aspects such as education, economy, public health, and the environment. The course explores the intersection and interplay between organisations, bureaucracies and communities. Development is ‘seen’ through the perspectives of performance, experience, equality, and practice via first-hand engagement. Primary research on sustainable development enhances students developing a critical perspective on how development is imagined, performed and carried out in village communities in conjunction with partner NGOs that run participatory development projects. Visual engagement facilitates sharing these findings with the community through film.',
-        assignment: 'Analysis of the development scenario in Cambodia, mini documentary, reflection',
+        assignment: 'Analysis of the development scenario in Norther Thailand, mini documentary, reflection',
         interesting: 'Field trip to Cambodia to engage with local communities and NGOs',
         image: 'UTC2111.jpg',
     },
     
     'UTS2105/UTC2105': {
         name: 'Singapore as "Model" City?',
-        prof: 'Dr Margaret Tan',
+        prof: 'Dr Loritta Chan',
         type: 'Senior Seminar',
         summary: 'A ‘global city’, a ‘city in a garden’, a ‘city of 6.9 million’… what do these and other models say about Singapore and its relationship to its past and future? This course facilitates critical and multi‐disciplinary engagement with the imagination and organization of Singapore as city. Students will examine visible aspects of the urban environment together with what is (treated as) invisible, and explore what is at stake in meeting Singapore’s ambition within its borders and beyond. The course culminates in a project that allows students to situate ideals of the liveable, sustainable, inclusive (etc.) city in particular urban sites.',
         assignment: 'Writing assignments, group intervention project',
@@ -139,7 +137,7 @@ export const courseData = {
     
     'UTC2117': {
         name: 'Skin',
-        prof: 'Dr Celine Coderey',
+        prof: 'Dr Priscilla Koh',
         type: 'Senior Seminar',
         summary: 'Working from the position that skin belongs as much to the person as to the society in which they live, this seminar reflects on how much our identity and our sense of self is produced by the interaction between biological, cultural, political, and economic, forces that play out through and on the skin. Thus, skin is a playground — at the very same time that it is a battle field — where identity is constantly reshaped through interaction of words, categories, values, body techniques and emotions.',
         assignment: 'Ethnographic project, student-led segment',
@@ -172,7 +170,7 @@ export const courseData = {
      // version 2 of changes
     'UTC2116/UTS2116': {
         name: 'The University Today',
-        prof: 'Dr Gene Navera',
+        prof: 'Dr Connor Graham',
         type: 'Senior Seminar',
         summary: 'What are universities for? A university education was traditionally exclusive to the elites but is increasingly seen as crucial to professionalization and social mobility; democratic citizenship; fostering debate and the pursuit of scientific knowledge. This course examines recent debates chronicling how growing trends of neoliberalism have led to changes in how universities and higher education are viewed. We also examine the confluence of historical, political and social factors that shaped the establishment and development of universities in postcolonial society like Singapore. Students will investigate how universities in Singapore relate with their overseas counterparts and with global trends in higher education.',
         assignment: 'Reflective essay, future university design',
@@ -206,15 +204,15 @@ export const courseData = {
         interesting: 'Study the latest innovations in themes such as Transport, Food, Water and Social Connections',
         image: 'UTC1115.jpg',
     },
-    'UTC1102B': {
-        name: 'The Darwinian Revolution',
-        prof: 'Dr John van Wyhe',
-        type: 'Junior Seminar',
-        summary: 'The scientific developments of the 19th century from geology to palaeontology, culminating in the theory of evolution by natural selection are arguably the greatest transformations in our understanding of the natural world in human history. Much of the science of the following century has been further refinements and elaborations of these earlier foundations. Yet most of these developments remain totally unknown or misunderstood by most people. Surely, therefore, an understanding of these issues is essential knowledge for any educated person today.',
-        assignment: 'Presentation, book review, essay',
-        interesting: 'Opportunity to see bones, shells, fossils brought in by the professor',
-        image: 'UTC1102B.jpg',
-    },
+    // 'UTC1102B': {
+        // name: 'The Darwinian Revolution',
+        // prof: 'Dr John van Wyhe',
+        // type: 'Junior Seminar',
+        // summary: 'The scientific developments of the 19th century from geology to palaeontology, culminating in the theory of evolution by natural selection are arguably the greatest transformations in our understanding of the natural world in human history. Much of the science of the following century has been further refinements and elaborations of these earlier foundations. Yet most of these developments remain totally unknown or misunderstood by most people. Surely, therefore, an understanding of these issues is essential knowledge for any educated person today.',
+        // assignment: 'Presentation, book review, essay',
+        // interesting: 'Opportunity to see bones, shells, fossils brought in by the professor',
+        // image: 'UTC1102B.jpg',
+    // },
     'UTC1120': {
         name: 'Emotions and Society',
         prof: 'Mr Shamraz Anver',
@@ -245,7 +243,7 @@ export const courseData = {
     },
     'UTC1102D': {
         name: 'Images',
-        prof: 'Dr Jeanine Lim',
+        prof: 'Dr Megan Wonowidjoyo',
         type: 'Junior Seminar',
         summary: 'In this junior seminar, students will explore the role of images in several key contexts, including painting, photography, science, mathematics, television, cinema and the internet. Students will develop habits of critical response by studying texts from philosophy, psychology, semiotics, and literature that deal directly with images and theories of the image. Students will learn to distinguish between kinds of image.and develop an understanding of the history of images, their influence on our lives and our interaction with them. Some attention will be given to special topics, such as the invention of the camera and the establishment of 19th century science.',
         assignment: 'Essay, video essay',
@@ -253,43 +251,41 @@ export const courseData = {
         image: 'UTC1102D.jpg',
     },
     'UTC1102S': {
-        name: 'Living and Dying in the Internet Age',
+        name: 'Coding Mortality',
         prof: 'Dr Connor Graham',
         type: 'Junior Seminar',
-        summary: 'Now, more than ever, we live, die and live on through Internet technologies such as Web sites, social networking platforms and gaming environments. But how does this ‘living, dying and living on’ through the Internet relate to our ‘bodily living, dying and living on’? Using different disciplinary perspectives, this course will dwell on two questions: (1) How do we make sense of life, death and after-death in the Internet era? (2) How can we respond, through new ways of thinking, practices, policy or design, to the new challenges and questions associated with life, death and after-death today?',
-        assignment: 'Book review, reflection, project, position statement',
-        interesting: 'Study Internet memes and computer game memorialisation',
+        summary: 'Algorithms are everywhere and nowhere. They drive search engines, guide expert decisions, and filter information. Yet, despite, being ubiquitous, they usually remain invisible. Increasingly, they also take on a life of their own, through technologies like artificial intelligence and predictive analytics. This course considers how computer code and the digital infrastructures that these are embedded in, shape and transform human mortality. From social media proles that persist after death to trackers that promise a better life, and from predictive tools that allocate scarce resources to algorithms that assess risk in governance, students will see how algorithms are entangled with human life and death. Drawing on sociotechnical and experiential approaches and with perspectives from information systems, science, technology and society (STS), history, sociology and media studies, students examine how mortality offers a critical lens for understanding algorithms: how they operate, act and persist in the world. Through creative practice students will also imagine new possibilities for new forms of life and death in the age of the algorithm',
+        assignment: 'Case study, project, learning reflection',
+        interesting: 'Study the societal effect of algorithms and online memorialisation of the dead',
         image: 'UTC1102S.jpg',
     },
-    'UTC1102P': {
-        name: 'Murals: Expressions from/on the Walls',
-        prof: 'Dr Margaret Tan',
-        type: 'Junior Seminar',
-        summary: 'This course introduces students to mural painting historically, theoretically and technically. Students will learn of murals from different cultures and periods to facilitate critical discussions on the roles of art, artists and aesthetics vis‐à‐vis notions of everyday life, public space and community. They will cultivate a strong sense of observation and curiosity about their surroundings, reporting on murals from antiquity, and of Singapore or their home countries. They will also acquire skills in the technical aspects of mural painting, from conceptualising designs to painting a mural. Finally, this course provides students an unusual opportunity for building collaborative and community spirit as they paint their chosen mural together.',
-        assignment: '',
-        interesting: '',
-        image: 'UTC1102P.jpg',
-    },
-    'UTC1102G': {
-        name: "Proof: What's truth got to do with it?",
-        prof: 'Professor Tay Yong Chiang',
-        type: 'Junior Seminar',
-        summary: 'An essential part of an educated person is an independent desire to know the truth. In seeking the truth, one must often judge a proffered proof. This seminar will discuss the relationship between Truth and Proof in biology, ecology, history, justice, mathematics, medicine, philosophy, physics, religion, statistics, etc. This helps the student see both the hard, objective formulation of the two concepts in the sciences, as well as their soft, subjective abstraction in the humanities.',
-        assignment: 'Essay, case study, presentation',
-        interesting: 'Truth and proof across many disciplines',
-        image: 'UTC1102G.jpg',
-    },
-    
-    'UTC1102E': {
-        name: 'Social Innovation',
-        prof: 'Dr Dilum Wewalaarachchi',
-        type: 'Junior Seminar',
-        summary: 'This freshman seminar will engage students in critical dialogue on the topic of social innovation. Drawing upon examples of innovation across various disciplines, students will examine sources of and processes that drive innovation, and reflect upon the organization and governance of innovation. Building on this knowledge, students will be challenged to think about how new technology, strategies, concepts, and ideas can be harnessed to solve social problems Substantial time will be devoted to understanding and debating issues pertaining to social innovation.',
-        assignment: 'Individual project on social innovation',
-        interesting: 'Design-thinking workshop',
-        image: 'UTC1102E.jpg',
-    },
-    
+    // 'UTC1102P': {
+        // name: 'Murals: Expressions from/on the Walls',
+        // prof: 'Dr Margaret Tan',
+        // type: 'Junior Seminar',
+        // summary: 'This course introduces students to mural painting historically, theoretically and technically. Students will learn of murals from different cultures and periods to facilitate critical discussions on the roles of art, artists and aesthetics vis‐à‐vis notions of everyday life, public space and community. They will cultivate a strong sense of observation and curiosity about their surroundings, reporting on murals from antiquity, and of Singapore or their home countries. They will also acquire skills in the technical aspects of mural painting, from conceptualising designs to painting a mural. Finally, this course provides students an unusual opportunity for building collaborative and community spirit as they paint their chosen mural together.',
+        // assignment: '',
+        // interesting: '',
+        // image: 'UTC1102P.jpg',
+    // },
+    // 'UTC1102G': {
+        // name: "Proof: What's truth got to do with it?",
+        // prof: 'Professor Tay Yong Chiang',
+        // type: 'Junior Seminar',
+        // summary: 'An essential part of an educated person is an independent desire to know the truth. In seeking the truth, one must often judge a proffered proof. This seminar will discuss the relationship between Truth and Proof in biology, ecology, history, justice, mathematics, medicine, philosophy, physics, religion, statistics, etc. This helps the student see both the hard, objective formulation of the two concepts in the sciences, as well as their soft, subjective abstraction in the humanities.',
+        // assignment: 'Essay, case study, presentation',
+        // interesting: 'Truth and proof across many disciplines',
+        // image: 'UTC1102G.jpg',
+    // },
+    // 'UTC1102E': {
+        // name: 'Social Innovation',
+        // prof: 'Dr Dilum Wewalaarachchi',
+        // type: 'Junior Seminar',
+        // summary: 'This freshman seminar will engage students in critical dialogue on the topic of social innovation. Drawing upon examples of innovation across various disciplines, students will examine sources of and processes that drive innovation, and reflect upon the organization and governance of innovation. Building on this knowledge, students will be challenged to think about how new technology, strategies, concepts, and ideas can be harnessed to solve social problems Substantial time will be devoted to understanding and debating issues pertaining to social innovation.',
+        // assignment: 'Individual project on social innovation',
+        // interesting: 'Design-thinking workshop',
+        // image: 'UTC1102E.jpg',
+    // },
     // version 2 of changes
     'UTC1116': {
         name: 'Spectacles and Society',
@@ -300,7 +296,6 @@ export const courseData = {
         interesting: 'Case studies, critical investigation of spectacularized events, collaborative work, co-facilitation of discussion',
         image: 'UTC1116.jpg',
     },
-
     'UTC1123': {
         name: 'The Nuclear Imagination',
         prof: 'Dr Rafi Rashid',
