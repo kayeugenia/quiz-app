@@ -6,7 +6,7 @@ export const quiz = {
         question: 'What is your field of interest?',
         answers: ['Organisations', 'Media', 'People', 'Community', 'Healthcare', 'Environment'],
         mappedAnswer: {
-            'Organisations': ['UTC2116/UTS2116', 'UTS2105/UTC2105'],
+            'Organisations': ['UTC2101','UTC2116/UTS2116', 'UTS2105/UTC2105'],
             'Media': ['UTC2106/UTS2106', 'UTS2103/UTC2103', 'UTC2119'],
             'People': ['UTC2107', 'UTC2117', 'UTS2104/UTC2104'],
             'Community': ['UTS2110/UTC2110', 'UTC2115/UTS2115'],
@@ -19,7 +19,7 @@ export const quiz = {
         question: 'What do you do in your free time?',
         answers: ['Playing board games', 'Spending time with family', 'Volunteering', 'Crafting'],
         mappedAnswer: {
-            'Playing board games' : ['UTC2107', 'UTS2104/UTC2104'],
+            'Playing board games' : ['UTC2101', 'UTC2107', 'UTS2104/UTC2104'],
             'Spending time with family' : ['UTS2114/UTC2114', 'UTS2110/UTC2110'],
             'Volunteering' : ['UTC2111','UTC2115/UTS2115'],
             'Crafting' : ['UTS2105/UTC2105', 'UTC2116/UTS2116'],
@@ -45,7 +45,7 @@ export const quiz = {
         mappedAnswer: {
             'Science fiction' : ['UTS2103/UTC2103', 'UTC2106/UTS2106', 'UTC2108','UTC1115'],
             'Mystery' : ['UTC2107', 'UTC2119', 'UTC1119'],
-            'Historical' : ['UTC2119', 'UTC2116/UTS2116','UTC1116'],
+            'Historical' : ['UTC2101', 'UTC2119', 'UTC2116/UTS2116','UTC1116'],
             'Non-fiction' : ['UTS2104/UTC2104','UTC2115/UTS2115','UTC1113'],
             'Fantasy' : ['UTS2105/UTC2105','UTC1102C','UTC1102D'], 
             'Dystopian' : ['UTS2114/UTC2114', 'UTC2117', 'UTC1102S'], 
@@ -69,7 +69,7 @@ export const quiz = {
         answers: ['Research essay', 'Creative works/Exhibition', 'Project that engages real stakeholders','Debate','Individual reflection','Field trip'],
         mappedAnswer: {
             'Research essay' : ['UTC2108', 'UTC2104/UTS2104'],
-            'Creative works/Exhibition': ['UTC2101','UTC2117', 'UTC2119'],
+            'Creative works/Exhibition': ['UTC2101', 'UTC2101','UTC2117', 'UTC2119'],
             'Project that engages real stakeholders' : ['UTS2105/UTC2105', 'UTC2115/UTS2115'],
             'Debate' : ['UTC2107', 'UTC1113'],
             'Individual reflection' : ['UTC2101','UTC2116/UTS2116'],
