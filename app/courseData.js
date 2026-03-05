@@ -179,7 +179,7 @@ export const courseData = {
     },
     'UTC2101': {
         name: 'Time and Life',
-        prof: 'Dr Céline Coderey',
+        prof: 'Dr Connor Graham',
         type: 'Senior Seminar',
         summary: 'There are few things that impact our lives as much as our sense of time. Singapore is a ‘fast-paced’ city where deadlines, time-saving apps and fertility clocks shape people’s actions and experiences, and where many feel ‘time poor’, even if they are cash rich. In this course, we examine the ways in which we take time for granted through analysing the ways in which our lives are temporally grounded. We do so particularly through tracing connections between individual experience, social life and technologies such as clocks and watches, electric lighting and the internet. Is time-stress inevitable in this day and age? What does it mean to use one’s time well?',
         assignment: 'Group presentation, reflection, individual project',
