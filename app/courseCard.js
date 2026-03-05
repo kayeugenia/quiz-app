@@ -77,12 +77,43 @@ const CustomPopup = ({ onClose, course }) => (
     </Overlay>
 );
 
+// Helper function to find course data with flexible course code matching
+const findCourseData = (courseID) => {
+    // Try exact match first
+    if (courseData[courseID]) {
+        return courseData[courseID];
+    }
+    
+    // If not found and courseID contains "/", try swapped version
+    if (courseID.includes('/')) {
+        const [part1, part2] = courseID.split('/');
+        const swappedID = `${part2}/${part1}`;
+        if (courseData[swappedID]) {
+            return courseData[swappedID];
+        }
+    }
+    
+    // Return null if not found
+    return null;
+};
+
 export const CourseCard = ({courseID}) => {
-    const course = courseData[courseID];
+    const course = findCourseData(courseID);
     const [isShownCourseInfo, setIsShownCourseInfo] = useState(false);
     const togglePopup = () => {
         setIsShownCourseInfo(!isShownCourseInfo);
     };
+
+    // Handle case where course is not found
+    if (!course) {
+        return (
+            <div className="course-card">
+                <div className="course-details">
+                    <div className="course-title">{courseID}: Course data not available</div>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div className="course-card">
