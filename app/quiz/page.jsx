@@ -95,7 +95,7 @@ const page = () => {
                     ) : (
                     <div className='result-container'>
                         <h3 id="results-header">Results</h3>
-                        <p id="results-header">These are your returned courses. Do note that while individual Tembusu courses differ in topic, they are all designed to engage the shared themes of: shared creativity and curiosity, bridging cultures and perspectives, and knowing and shaping communities. One course will typically engage at least two of these themes directly.</p>
+                        <p id="results-header">These are your returned courses. Do note that while individual Tembusu courses differ in topic, they are all designed to engage the shared themes of: <strong>shared creativity and curiosity</strong>, <strong>bridging cultures and perspectives</strong>, and <strong>knowing and shaping communities</strong>. One course will typically engage at least two of these themes directly.</p>
                         <div className="course-card-row">
                             {Object.keys(result)
                                 .map(k => ([k, result[k]]))
