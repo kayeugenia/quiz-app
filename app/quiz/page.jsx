@@ -1,7 +1,7 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { quiz } from '../quizData.js';
-import { CourseCard } from '../courseCard.js';
+import { CourseCard, getStandardCourseKey } from '../courseCard.js';
 import Link from 'next/link';
 
 const page = () => {
@@ -34,10 +34,28 @@ const page = () => {
         const coursesArray = mappedAnswer[selectedAnswer];
         
         coursesArray.forEach((course) => {
-            setResult((prev) => ({
-                ...prev,
-                [course]: prev[course] ? prev[course] + 1 : 1,
-            }));
+            setResult((prev) => {
+                // Normalize the course key to handle UTS/UTC variations
+                const standardCourseKey = getStandardCourseKey(course);
+                
+                // Check if either the course or its swapped version already exists in result
+                let keyToUse = standardCourseKey;
+                if (course.includes('/')) {
+                    const [part1, part2] = course.split('/');
+                    const swappedKey = `${part2}/${part1}`;
+                    // If swapped version exists in result, use that instead
+                    if (prev[swappedKey]) {
+                        keyToUse = swappedKey;
+                    } else if (prev[standardCourseKey]) {
+                        keyToUse = standardCourseKey;
+                    }
+                }
+                
+                return {
+                    ...prev,
+                    [keyToUse]: prev[keyToUse] ? prev[keyToUse] + 1 : 1,
+                };
+            });
         });
         
         if (activeQuestion !== questions.length - 1) {
@@ -101,7 +119,7 @@ const page = () => {
                                 .sort((a, b) => b[1] - a[1])
                                 .slice(0, 5)
                                 .map((item) => (
-                            <CourseCard courseID={item[0]} />
+                            <CourseCard key={item[0]} courseID={item[0]} />
                             ))}
                         </div>
                         <Link href='/'>
