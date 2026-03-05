@@ -113,7 +113,7 @@ export const courseData = {
     
     // version 2 of changes
     
-    'UTS2106/UTC2106': {
+    'UTC2106/UTS2106': {
         name: 'Science Fiction and Hope',
         prof: 'Dr John Wee, Dr Eric Kerr',
         type: 'Senior Seminar',
