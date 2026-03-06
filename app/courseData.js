@@ -120,7 +120,7 @@ export const courseData = {
         summary: 'This interdisciplinary course involves studying science fiction (SF) as a resource for thinking about the future in Singapore. As existential risks often dominate media imaginations of the future—often accompanied by narratives of coming insecurity, radical change, and uncertainty—the focus of this course is on the possibilities of SF to imagine a better world. Students will explore the history of SF, in Singapore and abroad, the ways SF reveals a society’s hopes and fears, and its capacity to imagine hopeful futures and apply what they learn to imagine solutions to contemporary challenges.',
         assignment: 'Short story dramatization, community discussion whiteboard, film analysis essay, creative writing project',
         interesting: 'Science fiction animated films & short stories, act out scenes, visit museums or exhibits',
-        image: 'UTS2106_UTC2106.png',
+        image: 'UTS2106_UTC2106.jpeg',
     },
     
     // version 2 of changes
@@ -132,7 +132,7 @@ export const courseData = {
         summary: 'The course enables students to reflect and build on how rhetoric and performance are deployed by migrant workers to demonstrate their productive contributions to society beyond paid labor. Through partnership with non-government organizations that focus on helping migrant workers, students will understand how discussions, artistic expressions, and cultural productions are fashioned and organized by the workers to highlight their specific needs while demonstrating their talents, rhetorical skills and creativity. As they develop the skills and dispositions in partnering with communities, students will collaborate with a group of migrant workers to co-design activities meant to cultivate inclusion, community building, and empowerment.',
         assignment: 'Project, reflection journals, class facilitation',
         interesting: 'Co-teaching / facilitating class discussions, Engaging with domestic workers on their rest days',
-        image: 'UTS2106/UTC2106.jpg',
+        image: 'uts2115_utc2115.png',
     },
     
     'UTC2117': {
@@ -154,7 +154,7 @@ export const courseData = {
         summary: 'Working from the position that skin belongs as much to the person as to the society in which they live, this seminar reflects on how much our identity and our sense of self is produced by the interaction between biological, cultural, political, and economic, forces that play out through and on the skin. Thus, skin is a playground — at the very same time that it is a battle field — where identity is constantly reshaped through interaction of words, categories, values, body techniques and emotions.',
         assignment: 'Map designs, museum labels, Singapore heritage project',
         interesting: 'Design a tactile map, perform art criticism, compose poetic narraitives, create an experiential map',
-        image: 'utc2119.png',
+        image: 'utc2119.jpeg',
     },
     
     'UTS2114/UTC2114': {
