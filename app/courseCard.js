@@ -56,7 +56,7 @@ const Overlay = styled.div`
 const CustomPopup = ({ onClose, course }) => (
     <Overlay>
         <PopupCard>
-            {course.image && <img src={`/${course.image}`} width="60%" alt="Course Image" />}
+            {course.image && <img src={`/${course.image}`} style={{width: "60%", maxHeight: "40vh", objectFit: "contain"}} alt="Course Image" />}
             <div>{course.name}</div>
             <div style={{textAlign: "left", marginTop: "20px", fontSize: "20px"}}>
                 <h5>Course Description:</h5>
@@ -79,9 +79,15 @@ const CustomPopup = ({ onClose, course }) => (
 
 // Helper function to find course data with flexible course code matching
 const findCourseData = (courseID) => {
+    const courseKey = getStandardCourseKey(courseID);
+    return courseData[courseKey] || null;
+};
+
+// Helper function to get the course key in courseData
+export const getStandardCourseKey = (courseID) => {
     // Try exact match first
     if (courseData[courseID]) {
-        return courseData[courseID];
+        return courseID;
     }
     
     // If not found and courseID contains "/", try swapped version
@@ -89,12 +95,12 @@ const findCourseData = (courseID) => {
         const [part1, part2] = courseID.split('/');
         const swappedID = `${part2}/${part1}`;
         if (courseData[swappedID]) {
-            return courseData[swappedID];
+            return swappedID;
         }
     }
     
-    // Return null if not found
-    return null;
+    // Return original courseID if not found in courseData
+    return courseID;
 };
 
 export const CourseCard = ({courseID}) => {

@@ -1,7 +1,7 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { quiz } from '../quizData.js';
-import { CourseCard } from '../courseCard.js';
+import { CourseCard, getStandardCourseKey } from '../courseCard.js';
 import Link from 'next/link';
 
 const page = () => {
@@ -34,10 +34,28 @@ const page = () => {
         const coursesArray = mappedAnswer[selectedAnswer];
         
         coursesArray.forEach((course) => {
-            setResult((prev) => ({
-                ...prev,
-                [course]: prev[course] ? prev[course] + 1 : 1,
-            }));
+            setResult((prev) => {
+                // Normalize the course key to handle UTS/UTC variations
+                const standardCourseKey = getStandardCourseKey(course);
+                
+                // Check if either the course or its swapped version already exists in result
+                let keyToUse = standardCourseKey;
+                if (course.includes('/')) {
+                    const [part1, part2] = course.split('/');
+                    const swappedKey = `${part2}/${part1}`;
+                    // If swapped version exists in result, use that instead
+                    if (prev[swappedKey]) {
+                        keyToUse = swappedKey;
+                    } else if (prev[standardCourseKey]) {
+                        keyToUse = standardCourseKey;
+                    }
+                }
+                
+                return {
+                    ...prev,
+                    [keyToUse]: prev[keyToUse] ? prev[keyToUse] + 1 : 1,
+                };
+            });
         });
         
         if (activeQuestion !== questions.length - 1) {
@@ -95,14 +113,14 @@ const page = () => {
                     ) : (
                     <div className='result-container'>
                         <h3 id="results-header">Results</h3>
-                        <p id="results-header">These are your returned courses. Do note that while individual Tembusu courses differ in topic, they are all designed to engage the shared themes of: <strong>shared creativity and curiosity</strong>, <strong>bridging cultures and perspectives</strong>, and <strong>knowing and shaping communities</strong>. One course will typically engage at least two of these themes directly.</p>
+                        <p id="results-disclaimer">These are your returned courses. Do note that while individual Tembusu courses differ in topic, they are all designed to engage the shared themes of: <strong style={{color: '#eab24b'}}>shared creativity and curiosity, bridging cultures and perspectives, and knowing and shaping communities.</strong> One course will typically engage at least two of these themes directly.</p>
                         <div className="course-card-row">
                             {Object.keys(result)
                                 .map(k => ([k, result[k]]))
                                 .sort((a, b) => b[1] - a[1])
                                 .slice(0, 5)
                                 .map((item) => (
-                            <CourseCard courseID={item[0]} />
+                            <CourseCard key={item[0]} courseID={item[0]} />
                             ))}
                         </div>
                         <Link href='/'>
