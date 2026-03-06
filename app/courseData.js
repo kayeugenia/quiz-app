@@ -22,8 +22,8 @@ export const courseData = {
         prof: 'Dr Rafi Rashid',
         type: 'Senior Seminar',
         summary: 'This ‘Senior Seminar’ course will consider social and public health issues raised by modern advances in biomedicine, particularly as they affect Singapore and the surrounding region. Merging insights from medicine, social sciences, and the humanities, students will be introduced to problems, conflicts, and debates, and asked to form their own reasoned opinions. The seminar will meet weekly in small groups of 15‐20, with periodic full‐class meetings to hear guest speakers.',
-        assignment: 'Medical narrative, learning journal, Model United Nations conference, interdisciplinary research project',
-        interesting: 'Talks with speakers in the medical and health sciences community',
+        assignment: 'Busting health myths, learning journal, community engagement research project',
+        interesting: 'Collaborate with Health Promotion Board (HPB) to develop health promotion interventions',
         image: 'UTS2103.jpg',
     },
 
