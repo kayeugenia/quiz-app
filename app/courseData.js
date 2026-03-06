@@ -246,8 +246,8 @@ export const courseData = {
         prof: 'Dr Megan Wonowidjoyo',
         type: 'Junior Seminar',
         summary: 'In this junior seminar, students will explore the role of images in several key contexts, including painting, photography, science, mathematics, television, cinema and the internet. Students will develop habits of critical response by studying texts from philosophy, psychology, semiotics, and literature that deal directly with images and theories of the image. Students will learn to distinguish between kinds of image.and develop an understanding of the history of images, their influence on our lives and our interaction with them. Some attention will be given to special topics, such as the invention of the camera and the establishment of 19th century science.',
-        assignment: 'Essay, video essay',
-        interesting: 'Video editing classes, guest classes by filmmakers and media practitioners',
+        assignment: 'Essay, Curated visual portfolio',
+        interesting: 'Visiting art exhibition, guest classes by filmmakers and media practitioners',
         image: 'UTC1102D.jpg',
     },
     'UTC1102S': {
