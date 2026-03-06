@@ -302,7 +302,7 @@ export const courseData = {
         type: 'Junior Seminar',
         summary: 'The public’s perception of nuclear power sharply deteriorated because of the 2011 Fukushima reactor core meltdown and several other prior accidents. However, given the urgent need to fight climate change and the current global energy crisis caused by Russia’s invasion of Ukraine, the case for nuclear power is becoming ever stronger. Considering the associated risks, what role should radiation play in society? In this course, we will adopt an interdisciplinary approach to examine the history of nuclear radiation, appreciate the science and technology behind nuclear power, and consider the ethical and social implications of a nuclear future.',
         assignment: 'Reflection, case presentation',
-        interesting: 'Engage in debate and negotiation to propose resolutions in the Model United Nations',
+        interesting: 'Engage in debate and negotiation to propose resolutions in the Model United Nations, visit to Singapore Nuclear Research & Safety Institute (SNRSI)',
         image: 'utc1123.jpg',
     }
 }
