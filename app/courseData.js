@@ -120,7 +120,7 @@ export const courseData = {
         summary: 'This interdisciplinary course involves studying science fiction (SF) as a resource for thinking about the future in Singapore. As existential risks often dominate media imaginations of the future—often accompanied by narratives of coming insecurity, radical change, and uncertainty—the focus of this course is on the possibilities of SF to imagine a better world. Students will explore the history of SF, in Singapore and abroad, the ways SF reveals a society’s hopes and fears, and its capacity to imagine hopeful futures and apply what they learn to imagine solutions to contemporary challenges.',
         assignment: 'Short story dramatization, community discussion whiteboard, film analysis essay, creative writing project',
         interesting: 'Science fiction animated films & short stories, act out scenes, visit museums or exhibits',
-        image: 'UTS2106/UTC2106.jpg',
+        image: 'UTS2106_UTC2106.png',
     },
     
     // version 2 of changes
@@ -294,7 +294,7 @@ export const courseData = {
         summary: 'Spectacles—mediatized events that generate heightened and sustained public attention and conversations—are a constant feature of contemporary societies. Concerts, sports events, political narratives, and “breaking news” are some examples of spectacles that have pervaded the public sphere and generated vibrant public talk. They carry with them values that either resonate or get contested in public. What does the phenomenon of spectacles reveal about the societies and cultures in which they take place? Using interdisciplinary frameworks and perspectives, this course offers students opportunities to critically examine spectacles as sites for negotiating social and cultural values, ideologies, and meanings.',
         assignment: 'Reflection essays, analytical paper, class facilitation, multimodal synthesis',
         interesting: 'Case studies, critical investigation of spectacularized events, collaborative work',
-        image: 'UTC1116.jpg',
+        image: 'UTC1116.jpeg',
     },
     'UTC1123': {
         name: 'The Nuclear Imagination',
