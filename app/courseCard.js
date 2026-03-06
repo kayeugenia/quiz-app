@@ -56,7 +56,7 @@ const Overlay = styled.div`
 const CustomPopup = ({ onClose, course }) => (
     <Overlay>
         <PopupCard>
-            {course.image && <img src={`/${course.image}`} width="60%" alt="Course Image" />}
+            {course.image && <img src={`/${course.image}`} style={{width: "60%", maxHeight: "40vh", objectFit: "contain"}} alt="Course Image" />}
             <div>{course.name}</div>
             <div style={{textAlign: "left", marginTop: "20px", fontSize: "20px"}}>
                 <h5>Course Description:</h5>
